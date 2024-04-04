@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+
+.main_header_home {
+    width: 100vw;
+    height: 80vh;
+    padding: 5vh 0 5vh 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.main_header_left_home {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    p {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    ul li {
+        font-size: 1.2rem;
+    }
+}
+
+.main_header_left_home button:hover {
+    box-shadow: 0 8px 6px -6px var(--main-color);
+}
+
+.main_header_right_home {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.carouselimage_home {
+    background-color: #ffffff;
+    filter: drop-shadow(0 0.5rem 1rem rgb(0, 0, 0, 0.3));
+}
+
+
+.swiper {
+
+    width: 90%;
+    height: 70%;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0);
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .main_header_home {
+        height: 60vh;
+        padding: 5vh;
+    }
+  
+    .main_header_left_home {
+        height: 100%;
+        
+        p {
+            font-size: 3rem;
+        }
+    
+        ul li {
+            font-size: 1.2rem;
+        }
+    }
+
+    .main_header_right_home {
+     display: none;
+    }
+}
+
+
+@media screen and (max-width:1224px) {
+    .main_header_home {
+        height: auto;
+        padding: 3rem 0;
+        box-sizing: border-box;
+        p {
+            font-size: 2.5rem;
+        }
+    
+        ul li {
+            font-size: 1rem;
+        }
+    }
+
+
+
+    .main_header_left_home {
+        height: auto;
+      
+    }
+
+
+    .main_header_right_home {
+        height: auto;
+    }
+}

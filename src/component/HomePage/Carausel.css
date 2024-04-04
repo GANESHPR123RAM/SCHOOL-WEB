@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.caraouselBody {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* background-color: rgba(0, 0, 0, 0.605); */
+  box-sizing: border-box;
+
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Quicksand;
+    padding: 1%;
+    color: #000000;
+  }
+}
+
+.swiper {
+
+  width: 90%;
+  height: 70%;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0);
+
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.main_header_Carausel {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0;
+}
+
+.main_header_left_Carausel {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  p {
+    font-size: 1.5rem;
+    font-family: Quicksand;
+
+    span {
+      color: #2f855a;
+    }
+  }
+}
+
+.main_header_left_Carausel {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+
+.thinker {
+  /* background-color: #ffffff; */
+  filter: drop-shadow(0 0.5rem 1rem rgb(0, 0, 0, 0.3));
+}
+
+
+@media screen and (max-width:400px) {
+  .caraouselBody {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width:782px) {
+
+  .caraouselBody {
+    height: 130vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Thoughts_carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+
+  .main_header_left_Carausel {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    p {
+      font-size: 1.5rem;
+      font-family: Quicksand;
+
+      span {
+        color: #2f855a;
+      }
+    }
+  }
+
+  /* .main_header_left_Carausel {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffffff; 
+  }*/
+
+}

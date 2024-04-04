@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+
+.main_Achievementshome {
+    width: 100vw;
+    height: 80vh;
+    padding: 5vh 0 5vh 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.main_Achievements_left_home {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    p {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    ul li {
+        font-size: 1.2rem;
+    }
+}
+
+.main_Achievements_left_home button:hover {
+    box-shadow: 0 8px 6px -6px var(--main-color);
+}
+
+.main_Achievements_right_home {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.carouselimage_home_Achievements {
+    filter: drop-shadow(0 0.5rem 1rem rgb(0, 0, 0, 0.3));
+}
+
+
+@media screen and (max-width:768px) {
+    .main_Achievementshome {
+        width: 100vw;
+        height: 100vh;
+        padding:10px;
+    
+    }
+
+    .main_Achievements_left_home {
+        height: 50vh;
+        margin: 1rem 0;
+        p {
+            font-size: 3rem;
+        }
+    
+        ul li {
+            font-size: 1.2rem;
+        }
+    }
+
+    .main_Achievements_right_home {
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:1224px) {
+    .main_Achievementshome {
+        height: auto;
+        padding: 3rem 0;
+        box-sizing: border-box;
+    
+        p {
+            font-size: 2.5rem;
+        }
+    
+        ul li {
+            font-size: 1rem;
+        }
+    }
+
+
+    .main_Achievements_left_home {
+        height: auto;
+    }
+
+    .main_Achievements_right_home {
+        height: auto;
+    }
+
+}

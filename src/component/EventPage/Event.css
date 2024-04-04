@@ -1,0 +1,46 @@
+body{
+    overflow-x: hidden;
+}
+.EventCard{
+    width: 300px;
+    height: 400px;
+    padding: 2% 2% 10% 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    button{
+        width: 60%;
+        height: 10%;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+        
+    }
+
+.EventImg{
+    width: 100%;
+    height: 80%;
+}
+.EventDes{
+    width: 100%;
+    height: 20%;
+}
+@media screen and (max-width:500px){
+    .EventCard{
+        width: 250px;
+        height: 350px;
+        padding: 2% 2% 10% 2%;
+    } 
+  
+}
+@media screen and (max-width:400px){
+    .EventCard{
+        width: 200px;
+        height: 300px;
+        padding: 2% 2% 10% 2%;
+        button{
+            width: 60%;
+            height: 10%;
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+    } 
+}
