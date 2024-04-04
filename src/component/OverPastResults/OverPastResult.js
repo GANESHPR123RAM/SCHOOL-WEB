@@ -1,32 +1,24 @@
 import React from 'react'
-import Rachna from '../Image/Archna.png'
-import Kavita from '../Image/kavita.png'
-import muskan from '../Image/muskan.png'
-import Ajeet from '../Image/Ajeet.png'
-import Manish from '../Image/Manish.png'
-import img1 from '../Image/1.png'
-import img2 from '../Image/2.png'
-import img3 from '../Image/3.png'
-import img5 from '../Image/5.png'
+import me from '../Image/me.jpg'
 // Sample data for past results {
 const pastResults10 = [
-    { name: 'Kavita ', Year: 2017, Result: '88%', profileImage: Kavita },
-    { name: 'Rachna', Year: 2023, Result: '85%', profileImage: Rachna },
-    { name: 'Manish', Year: 2023, Result: '96%', profileImage: Manish },
-    { name: 'Ajeet Kumar', Year: 2017, Result: '93%', profileImage: Ajeet },
+    { name: 'Kavita ', Year: 2017, Result: '88%', profileImage: me },
+    { name: 'Rachna', Year: 2023, Result: '85%', profileImage: me },
+    { name: 'Manish', Year: 2023, Result: '96%', profileImage: me },
+    { name: 'Ajeet Kumar', Year: 2017, Result: '93%', profileImage: me },
     
 
 
 ];
 const pastResultsN = [
-    { name: 'Muskan', Year: 2023, Result: '', profileImage: muskan },
-    { name: 'Ganesh Prajapati', Year: 2017, Result: 'IIT-Roorkee Student', profileImage: img5 },
+    { name: 'Muskan', Year: 2023, Result: '', profileImage: me },
+    { name: 'Ganesh Prajapati', Year: 2017, Result: 'IIT-Roorkee Student', profileImage: me },
 
 ];
 const pastResults8 = [
-    { name: '1', Year: 2023, Result: 'A', profileImage: img1 },
-    { name: '1', Year: 2023, Result: 'A', profileImage: img2 },
-    { name: '1', Year: 2023, Result: 'A', profileImage: img3 },
+    { name: '1', Year: 2023, Result: 'A', profileImage: me },
+    { name: '1', Year: 2023, Result: 'A', profileImage: me },
+    { name: '1', Year: 2023, Result: 'A', profileImage: me },
 
 ];
 function OverPastResult() {

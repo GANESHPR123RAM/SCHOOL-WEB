@@ -1,12 +1,8 @@
 import React, { useEffect } from 'react'
 import './Teacher.css'
 import Blank from '../Image/direactor.png'
-import teacher1 from '../Image/teacher1.png'
-import teacher2 from '../Image/teacher2.png'
-import teacher3 from '../Image/teacher3.png'
-import teacher4 from '../Image/teacher4.png'
-import teacher5 from '../Image/teacher5.png'
-import teacher6 from '../Image/teacher5.png'
+import teacher from '../Image/teacher.png'
+
 
 function Teachers() {
 
@@ -63,14 +59,14 @@ const principalData = [
 
 const AboutData = [
   {
-    img: teacher1,
+    img: teacher,
     name: 'MANISH KUMAR',
     Subject: "SOCIAL SCIENCE",
     Qualification: "BA BED MA HINDI,SOCIAL SCIENCE",
     Experience: "7 year",
   },
   {
-    img: teacher2,
+    img: teacher,
     name: 'PINKI WADIYA',
     Subject: "Science",
     Qualification: "MSC BED, MSC PHYSICS",
@@ -78,7 +74,7 @@ const AboutData = [
   }
   ,
   {
-    img: teacher3,
+    img: teacher,
     name: 'DIPAK KUMAR',
     Subject: "Maths",
     Qualification: "BSC MATH",
@@ -86,21 +82,21 @@ const AboutData = [
   }
   ,
   {
-    img: teacher4,
+    img: teacher,
     name: 'PAYAL KUMARI',
     Subject: "Athletic Development",
     Qualification: "MA BED",
     Experience: "3 year",
   },
   {
-    img: teacher5,
+    img: teacher,
     name: 'Minakshi wadiya',
     Subject: "SOCIAL SCIENCE",
     Qualification: "BA BED MA HINDI,SOCIAL SCIENCE",
     Experience: "7 year",
   },
   {
-    img: teacher6,
+    img: teacher,
     name: 'BHARATI KUMARI',
     Subject: "English",
     Qualification: "BA BED MA ENGLISH",

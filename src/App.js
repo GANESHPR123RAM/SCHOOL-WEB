@@ -17,7 +17,7 @@ import OverPastResult from './component/OverPastResults/OverPastResult';
 import Alumni from './component/Alumni/AlumniPage';
 import Admissions from './component/Admissions/Admissions';
 import About from './component/AboutUsPage/About';
-import Gallery from './component/Gallery/Gallery';
+
 
 function App() {
   return (
@@ -47,8 +47,6 @@ function App() {
           <Route path='/Admissions' element={<Admissions />}>
           </Route>
           <Route path='/MeetTheTeam' element={<Teachers />}>
-          </Route>
-          <Route path='/Gallery' element={<Gallery />}>
           </Route>
         </Routes>
         <React.Fragment>

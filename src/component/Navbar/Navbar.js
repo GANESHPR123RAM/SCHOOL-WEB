@@ -47,7 +47,6 @@ function Navbar() {
                                 <div className="py-1">
                                     <Link to="/MeetTheTeam" onClick={closeDropdown2} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-4 py-2 text-sm">Our Team</Link>
                                     <Link to="/About" onClick={closeDropdown2} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-4 py-2 text-sm">About-us</Link>
-                                    <Link to="/Gallery" onClick={closeDropdown2} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-4 py-2 text-sm">Gallery</Link>
                                 </div>
                             </div>
                         )}
@@ -111,7 +110,6 @@ function Navbar() {
                                                 <div className="py-1">
                                                     <Link to="/MeetTheTeam" onClick={closeDropdown2} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-4 py-2 text-sm">Our Team</Link>
                                                     <Link to="/About" onClick={closeDropdown2} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-4 py-2 text-sm">About-us</Link>
-                                                    <Link to="/Gallery" onClick={closeDropdown2} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-4 py-2 text-sm">Gallery</Link>
                                                 </div>
                                             </div>
                                         )}
