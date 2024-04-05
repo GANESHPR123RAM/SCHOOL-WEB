@@ -21,6 +21,7 @@ function Navbar() {
 
     const closeDropdown1 = () => {
         setDropdownOpen1(false);
+        setHamburgerMenu(false);
     };
 
     const toggleDropdown2 = () => {
@@ -29,6 +30,7 @@ function Navbar() {
 
     const closeDropdown2 = () => {
         setDropdownOpen2(false);
+        setHamburgerMenu(false);
     };
 
     const MobileMenu = () => {
