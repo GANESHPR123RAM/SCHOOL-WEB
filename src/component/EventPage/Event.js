@@ -31,8 +31,12 @@ const ModalExample = () => {
             id: 3, EventImg: Visit, description:
                 "Kota's educational tour, February 24, 2023 - blending history, culture, and biodiversity for students..", eventContent: "Our educational tour to Kota on February 24th, 2023, was an enriching experience for students and teachers alike. Exploring iconic landmarks such as Alaniya Mata Ji and Karni Mata Temple, alongside engaging attractions like the Zoological Park and Seven Wonders, provided valuable insights into history, culture, and biodiversity. Accompanied by 58 students from grades 5 to 10 and supported by a team of 10 teachers, the excursion fostered learning beyond the classroom and created lasting memories.", studentName: "educational tour"
         },
-        { id: 4, EventImg: colours, description: "School rangoli contest: uniting creativity and culture, painting our campus with vibrant designs. ", eventContent: "In the vibrant spirit of creativity, students at our school showcased their artistic flair in a spirited rangoli-making competition, adorning the campus with intricate designs and vibrant colors. The event fostered camaraderie and celebrated cultural diversity, as participants poured their hearts into crafting mesmerizing patterns that adorned our school grounds.", studentName: "rangoli competition" },
-        { id: 5, EventImg: IND, description: "Immerse in Republic Day's spirit with a vibrant dance program celebrating our nation's heritage and unity. ", eventContent: "Experience the spirit of Republic Day through a captivating dance program at our school, where students showcase their talent and patriotism with every graceful step. Join us in celebrating our nation's rich heritage and unity through the power of dance." ,studentName:"Republic Day"},
+        {
+            id: 4, EventImg: colours, description: "School rangoli contest: uniting creativity and culture, painting our campus with vibrant designs. ", eventContent: "In the vibrant spirit of creativity, students at our school showcased their artistic flair in a spirited rangoli-making competition, adorning the campus with intricate designs and vibrant colors. The event fostered camaraderie and celebrated cultural diversity, as participants poured their hearts into crafting mesmerizing patterns that adorned our school grounds.", studentName: "rangoli competition"
+        },
+        {
+            id: 5, EventImg: IND, description: "Celebrate Republic Day with a vibrant dance honoring our heritage and unity. ", eventContent: "Experience the spirit of Republic Day through a captivating dance program at our school, where students showcase their talent and patriotism with every graceful step. Join us in celebrating our nation's rich heritage and unity through the power of dance.", studentName: "Republic Day"
+        },
     ];
 
     const openModal = (index) => {

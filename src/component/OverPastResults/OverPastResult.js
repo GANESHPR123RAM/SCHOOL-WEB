@@ -13,6 +13,8 @@ const pastResults10 = [
 const pastResultsN = [
     { name: 'Muskan', Year: 2023, Result: '', profileImage: me },
     { name: 'Ganesh Prajapati', Year: 2017, Result: 'IIT-Roorkee Student', profileImage: me },
+    { name: 'Muskan', Year: 2023, Result: '', profileImage: me },
+    { name: 'Ganesh Prajapati', Year: 2017, Result: 'IIT-Roorkee Student', profileImage: me },
 
 ];
 const pastResults8 = [
@@ -27,7 +29,7 @@ function OverPastResult() {
             <section className="py-12 px-5 bg-gray-100 h-full pt-[25%] sm:pt-[15%] md:pt-[10%] ">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-semibold text-center mb-8">10th Class Result</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {pastResults10.map(result => (
                             <div key={result.name} className="bg-white text-center shadow-md p-6 rounded-lg">
                                 <img src={result.profileImage} alt={result.name} className=" w-28 h-28 rounded-full mx-auto mb-4" />
@@ -44,7 +46,7 @@ function OverPastResult() {
             <section className="py-5 px-5 bg-gray-100 h-full pt-[25%] sm:pt-[15%] md:pt-[10%] ">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-semibold text-center mb-8">Navodaya selection</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2  gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {pastResultsN.map(result => (
                             <div key={result.name} className="bg-white text-center shadow-md p-6 rounded-lg">
                                 <img src={result.profileImage} alt={result.name} className=" w-28 h-28 rounded-full mx-auto mb-4" />

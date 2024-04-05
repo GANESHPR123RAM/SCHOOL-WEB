@@ -29,10 +29,10 @@ function HomePage() {
             <div className="Homepage-Box" >
                 <img src={Homepagebg} alt='' className='homeBg z-1 w-full h-full absolute' />
                 <div className="homePageContentBox font-Quicksand" >
-                    <h1>We provide <span className="auto-type"></span></h1>
+                    <h1><span className='stable-word'>We provide</span> <span className="auto-type"></span></h1>
                     <br />
-                    <h2 data-aos="fade-up" className='font-Quicksand'>Savitri Krishna Senior Secondary School-</h2>
-                    <h2 data-aos="fade-up" className='font-Quicksand'>Nurturing Minds, Inspiring Futures</h2>
+                    <h2  className='font-Quicksand'>Savitri Krishna Senior Secondary School-</h2>
+                    <h2  className='font-Quicksand'>Nurturing Minds, Inspiring Futures</h2>
                 </div>
 
             </div>

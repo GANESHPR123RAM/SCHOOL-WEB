@@ -12,7 +12,7 @@ function Admission() {
         document.body.removeChild(link);
     };
     return (
-        <section className="py-12 bg-gray-100 h-full pt-[25%] sm:pt-[15%] md:pt-[10%]">
+        <section className="py-12 px-5 bg-gray-100 h-full pt-[25%] sm:pt-[15%] md:pt-[10%]">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl font-semibold text-center mb-8">Admissions</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

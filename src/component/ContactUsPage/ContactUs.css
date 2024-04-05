@@ -2,6 +2,7 @@
 
 .ContactUsBox {
     width: 100vw;
+    height: auto;
     /* height: 130vh; */
     background-color: rgb(255, 255, 255);
     padding: 10% 5% 5% 5%;
@@ -201,8 +202,8 @@
 }
 
 .form {
-    width: 25vw;
-    height: 40vh;
+    width: 95%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     color: #323232;
@@ -223,16 +224,16 @@
 }
 
 .formcss {
-    width: 25vw;
-    height: 20vh;
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
 }
 
 .massageBox {
-    width: 25vw;
-    height: 20vh;
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
